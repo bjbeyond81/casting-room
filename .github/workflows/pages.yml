@@ -19,8 +19,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Package site
+        run: |
+          mkdir -p _site/img
+          cp index.html _site/
+          touch _site/.nojekyll
+          cp img/*.js _site/img/
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
