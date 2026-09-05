@@ -2,6 +2,6 @@
 
 Cinematic look picker for custom pet prints.
 
-**Live (Safari, no Grok login):** https://bjbeyond.it/casting-room/
+Repo: https://github.com/bjbeyond81/casting-room
 
-Customers open the link in Safari → Share → Add to Home Screen. They pick 3 looks and copy an Etsy note. Photos stay on the phone.
+Customers pick 3 looks and copy an Etsy note. Photos stay on the phone.
